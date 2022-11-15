@@ -5,6 +5,8 @@
 }
 
 html{
+  /* padding-top toegevoegd door de fixed header (het valt er anders achter) */
+  scroll-padding-top: 13vh;
   scroll-behavior: smooth;
 }
 
@@ -72,7 +74,7 @@ nav a.active {
 }
 
 main{
-  margin-top: 15vh;
+  margin-top: 13vh;
   margin-left: 25vw;
   margin-bottom: 3vh;
 }
