@@ -9,24 +9,16 @@
 }
 
 body {
+  display: flex;
+  flex-direction: row;
   min-height: 100vh;
-
   font-family: sans-serif;
-  text-rendering: optimizeLegibility;
-  font-feature-settings: 'kern' 1, 'liga' on, 'dlig' on;
   line-height: 1.5;
-
-  color: DarkSlateGray;
-  background-color: silver;
-}
-
-body > * {
-  padding: 0.2rem;
+  color: black;
 }
 
 header {
   background-color: white;
-  margin-bottom: 1rem;
   color: silver;
 }
 
@@ -35,35 +27,53 @@ header > h1 {
   text-align: right;
 }
 
+nav{
+  border-right: #F26F21 solid 3px;
+  width: 20%;
+  position: fixed;
+  height: 100%;
+}
+
 nav li {
-  display: inline;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3vh;
 }
 
 nav li a {
   text-decoration: none;
+  color: #333467;
+  font-weight: bold;
 }
 
 nav a.active {
   font-weight: bold;
 }
 
+main{
+  margin-left: 30vw;
+}
+
 section {
   width: min(100%, 38rem);
-  background: white;
+  background: hotpink;
   border-radius: 0.2rem;
   padding: 0.2rem;
 }
+
+/* elke section na de eerste heeft een margin top 1rem */
 section + section {
   margin-top: 1rem;
 }
 
 h3 {
-  border-bottom: DarkSlateGray 1px solid;
+  border-bottom: red 1px solid;
   margin-bottom: 1rem;
 }
 
-pre {
+/* pre {
   padding-left: 0.2rem;
   background: DarkSlateGray;
   color: white;
-}
+} */
