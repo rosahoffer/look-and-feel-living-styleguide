@@ -81,8 +81,8 @@ main{
 
 section {
   width: min(100%, 55rem);
-  color: #ffff;
-  background: #333467;
+  color: #333467;
+  background:#ffff;
   padding: 1rem;
 }
 
@@ -103,34 +103,57 @@ h2 {
 } */
 
 
-<<<<<<< Updated upstream
-
-/* TYPOGRAFIE*/
-=======
 /*TYPOGRAFIE*/
->>>>>>> Stashed changes
+
+.typografie_box h4{
+  padding-bottom: 1em;
+}
 
 .typografie_container{
   display: flex;
   flex-direction: row;
-  align-items: center;
   flex-wrap: wrap;
   width: 100%;
   gap: 1em;
 }
 
 .typografie_box{
-  width: 15em;
-  height: 15em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 25em;
   padding: 1em;
-  background-color: #333467;
-  border: 1px solid white;
+  border: 1px solid #333467;
 }
 
-.typografie_box > h4{
-  padding-bottom: 1em;
+.basis_text{
+  display: flex;
+  flex-direction: column;
+  width: 10em;
 }
 
-.typografie_box > p{
-  padding-bottom: 0.5em;
+.text_alignment{
+  display: flex;
+  flex-direction: column;
+  width: 15em;
+  margin-bottom: 1em;
+}
+
+.headings{
+  display: flex;
+  flex-direction: column;
+}
+
+.headings > table{
+  width: 350px;
+}
+
+.heading_alignment{
+  display: flex;
+  flex-direction: column;
+}
+
+.heading_alignment > img{
+  width: 15em;
+  margin-right: 3em;
 }
