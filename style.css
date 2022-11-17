@@ -187,6 +187,10 @@ table {
   padding-bottom: 1rem;
 }
 
+ul li{
+  color:#333467;
+}
+
 ul p {
   font-size: 32pt;
   font-weight: bold;
