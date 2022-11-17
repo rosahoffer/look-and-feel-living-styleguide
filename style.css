@@ -92,7 +92,6 @@ h2 {
   margin-bottom: 1rem;
 }
 /* icons */
-
 .icons{
   border-left: 7px solid #9191ae;
   padding: 1em;
@@ -115,7 +114,7 @@ h2 {
    box-shadow: #88a5bf7a 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
    padding: .5em;
   }
-
+  
 /*TYPOGRAFIE*/
 
 
@@ -163,6 +162,163 @@ h2 {
   flex-direction: column;
   margin-bottom: 2rem;
   width: 20rem;
+}
+/* Forms */
+
+#formulieren h2 {
+  font-size: 40px;
+}
+
+#formulieren h3 {
+  font-size: 30px;
+}
+
+#formulieren h4 {
+  font-size: 20px;
+}
+
+/* FROM:text input style */
+
+.container-textInput,
+.container-textArea {
+  display: flex; 
+  flex-direction: row;
+  padding: 20px 20px;
+}
+
+.container_text_area_li,
+.container_text_input_li {
+  padding: 4rem 4rem 4rem 10rem;
+}
+
+.text_area_img {
+  background-color: #D6D6E1;
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+}
+
+.text_input_img {
+  background-color: #D6D6E1;
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+}
+
+/* FORM:gebruik style */
+
+.container-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.container-wrapper li  {
+  padding: 0 20px 0 10px
+}
+
+.img_wrapper {
+  background-color: #D6D6E1;
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+}
+
+/* FORM: voorbeeld code style */
+.realistic-box  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 25%;
+}
+
+
+.example-box, 
+.realistic-box {
+	font-size: 12px; 
+	width: 100%;
+	background-color: rgb(219, 213, 213);
+	font-family: arial;
+	color: #0f0e0e;
+  margin-bottom: 1rem;
+}
+
+
+.realistic-box label {
+  display: block;
+  color:  #333467;
+  font-size: 20px;
+  font-style: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input,
+label {
+    margin: 5px 0;  
+}
+
+.realistic-box input,
+textarea {
+  width: 50%;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+
+}
+
+.form-submit input {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 6px 10%;
+  background-color: #F58C4D;
+  color:#333467
+}
+
+
+textarea {
+  color:  #333467;
+  resize: none;
+}
+
+/* Forms */
+
+#formulieren h2 {
+  font-size: 40px;
+}
+
+#formulieren h3 {
+  font-size: 30px;
+}
+
+#formulieren h4 {
+  font-size: 20px;
+}
+
+/* text input style */
+
+.container-textInput,
+.container-textArea {
+  display: flex; 
+  flex-direction: row;
+  padding: 20px 20px;
+}
+
+.container_text_area_li,
+.container_text_input_li {
+  padding: 4rem 4rem 4rem 10rem;
+}
+
+/* gebruik style */
+
+.container-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.container-wrapper li  {
+  padding: 0 20px 0 10px
+}
+
+.img_wrapper {
+  background-color: green;
+  padding: 20px 20px 20px 20px
 }
 
 .text_alignment img{
