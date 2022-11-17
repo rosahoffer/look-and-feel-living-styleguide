@@ -214,3 +214,48 @@ textarea {
   color:  #333467;
   resize: none;
 }
+
+/* Forms */
+
+#formulieren h2 {
+  font-size: 40px;
+}
+
+#formulieren h3 {
+  font-size: 30px;
+}
+
+#formulieren h4 {
+  font-size: 20px;
+}
+
+/* text input style */
+
+.container-textInput,
+.container-textArea {
+  display: flex; 
+  flex-direction: row;
+  padding: 20px 20px;
+}
+
+.container_text_area_li,
+.container_text_input_li {
+  padding: 4rem 4rem 4rem 10rem;
+}
+
+/* gebruik style */
+
+.container-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.container-wrapper li  {
+  padding: 0 20px 0 10px
+}
+
+.img_wrapper {
+  background-color: green;
+  padding: 20px 20px 20px 20px
+}
