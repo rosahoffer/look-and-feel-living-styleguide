@@ -101,3 +101,76 @@ h2 {
   background: DarkSlateGray;
   color: white;
 } */
+
+
+
+/* Section Buttons  */
+
+
+.btn-kader
+{
+  background-color: rgb(255, 255, 255);
+  height: 5.5rem;
+  width: 49em;
+  margin: 2rem;
+}
+
+button{
+  color: white;
+  padding: 1em 3.8em 1em;
+  margin: 1.5em 0em 0em 3em;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.btn1{
+  background-color: #224D12;
+}
+
+
+.btn2{
+  background-color: white;
+  border-style: solid  #224D12;
+  color: #224D12;
+}
+
+
+.btn3{
+  background-color: rgba(34, 77, 18, 0.23);
+  border-style: solid  #224D12;
+  color: #224D12;
+}
+
+.btn-plus{
+  width: 16em;
+  margin-left: 3em;
+}
+
+.btn-kader2
+{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(255, 255, 255);
+  height: 9.5rem;
+  width: 49em;
+  margin: 2rem;
+}
+
+ul{
+  color: black;
+  padding: 2.2rem 4rem 1rem;
+}
+
+table{
+  width: 49em;
+  margin: 2rem;
+  padding: 0;
+  background-color: white;
+  color: black;
+}
+
+td{
+  padding: 0;
+  width: 12em;
+  padding: 1em;
+}
