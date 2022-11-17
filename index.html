@@ -75,15 +75,116 @@
       <img src="assets/color-schedule-buurtcampus.png" width= 50% alt="Kleur Schema">
     </section>
 
+    <!-- Content forms -->
     <section id="formulieren">
-      <h2>Formulieren</h2>
+      <h2>Formulier</h2>
 
-      <h3>Header</h3>
-      <h4>Wel doen</h4>
+      <!-- Content form Text Input -->
+      <h3>Text input</h3>
+      <p>Een select is een formulier invoer waarmee gebruikers een optie uit een lijst kunnen kiezen.</p>
+      
+      <h4>Anatomie</h4>
+      <p>Tekstinvoer kan gebruikersinvoer op twee verschillende manieren weergeven:</p>
+      
+      <p>Tekstinvoer met een enkele regel tekst </p>
+      <div class="container-textInput">
+      <div class="container_text_input_img">
+        <img class="text_input_img" src="assets/Anatomie.svg"/>
+      </div>
+    
+      <div class="container_text_input_li">
+      <ol>
+        <li>Container</li>
+        <li>Label</li>
+        <li>Placeholder / Input text (optional)</li>
+       
+      </ol>
+    </div>
+  </div>
+
+  <p> Tekstgebied met meerdere regels tekst in een tekstinvoer met vaste hoogte</p>
+    <div class="container-textArea">
+      <div class="container_text_area">
+          <img class="text_area_img" src="assets/Anatomie counter.png"/>
+      </div>
+  
+      <div class="container_text_area_li">
+        <ol>
+          <li>Container</li>
+          <li>Label</li>
+          <li>Placeholder</li>
+          <li>Counter</li>
+        </ol>
+        </div>
+        </div>
+     
+      <!-- Content gebruik form  -->
+       
+      <h4>Gebruik</h4>
       <p>Vertel hoe dingen toegepast moeten worden.</p>
+      <ul class="container-wrapper">
+        <li><img class="img_wrapper" src="assets/label.svg"/>
+        <p>Label</p>
+        <p>Vermijd het maskeren van het label: houd het label altijd zichtbaar).</p></li>
+        <li> <img class="img_wrapper" src="assets/width .svg"/>
+          <p>Breedte & Nabijheid</p>
+          <p>Gebruik visuele nabijheid.</p></li>
+            <li> <img class="img_wrapper" src="assets/Input text graphic/Group 1.svg"/>
+              <p>Auto-focus</p>
+              <p></p>Automatische scherpstelling instellen.</p></li>
+              <li> <img class="img_wrapper" src="assets/Input text graphic/Group 1.svg"/>
+                <p>Layout</p></li>
+                <li> <img class="img_wrapper" src="assets/Input text graphic/Group 1.svg"/>
+                  <p>On mobile</p></li>
+      </ul>
+      <figcaption>Voorbeeld HTML code</figcaption>
+      <div class="container-box"></div>
+      <figure class="example-box">
+        <pre class="example_box_code">
+            &lt;form&gt;
+            &lt;label for="name">Voornaam&gt;&lt;/label&gt;
+            &lt;input type="text" id="name" name="name"&gt;
+            &lt;label for="last-name">Achternaam &lt;/label&gt;
+            &lt;input type="text" id="last-name" name="last-name"&gt;
+            &lt;/form&gt;
+        </pre>
+      </figure>
 
-      <h4>Niet doen</h4>
-      <p>Vertel hoe dingen vooral niet toegepast moeten worden.</p>
+      <figcaption>Voorbeeld CSS code</figcaption>
+      <figure class="example-box">
+        <pre class="example_box_code">
+        
+        </pre>
+      </figure>
+    
+      <h4>Realistische HTML & CSS code</h4>
+      <div class="realistic-box">
+          <form action="" method="get" class="form-example">
+            <div class="form-name">
+              <label for="name">Enter your name: </label>
+              <input type="text" name="name" id="name" required>
+            </div>
+            <div class="form-email">
+              <label for="email">Enter your email: </label>
+              <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form-textarea">
+              <label for="text-area">Verstuurd een email</label><textarea id="text-textarea" name="text-textarea" rows="4" cols="50">
+Hoi buurtgenoot, Wat leuk dat je een plantje wil ruilen! Wanneer zullen we afspraken bij de bieb
+            </textarea>
+            </div>
+            <div class="form-submit">
+              <input type="submit" value="Subscribe!">
+            </div>
+            
+          </form>
+        </div> 
+      
+    
+    
+
+     
+
     </section>
     
     <section id="responsive">
@@ -146,9 +247,8 @@
       <h3>Header</h3>
       <h4>Wel doen</h4>
       <p>Vertel hoe dingen toegepast moeten worden.</p>
+    </section>
 
-      <h4>Niet doen</h4>
-      <p>Vertel hoe dingen vooral niet toegepast moeten worden.</p>
     </section>
   </main>
 
@@ -156,3 +256,5 @@
 </body>
 
 </html>
+
+Radio Buttons
