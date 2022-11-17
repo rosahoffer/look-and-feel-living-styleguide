@@ -101,3 +101,9 @@ h2 {
   background: DarkSlateGray;
   color: white;
 } */
+
+/* KLEUR */
+
+.section-color > img:last-child{
+  padding-top: 50px;
+}
