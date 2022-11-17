@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-html{
+html {
   /* padding-top toegevoegd door de fixed header (het valt er anders achter) */
   scroll-padding-top: 13vh;
   scroll-behavior: smooth;
@@ -20,79 +20,75 @@ body {
 }
 
 header {
-  position: fixed;
-  display: flex;
-  z-index: 1;
-  align-items: center;
-  width: 100%;
-  background-color: white;
-  color: silver;
-  border-bottom: 2px solid #F26F21;
-}
-
-header > h1 {
-  flex-grow: 1;
-  text-align: center;
-}
-
-.logoTemplate{
-  width: 13%;
-  /* width: 1.125rem clamp(1rem, calc(120 / 1440 * 100vw), 1rem); */
-  margin-left: 4vw;
-}
-
-nav{
-  top: 0;
-  border-right: #F26F21 solid 3px;
-  width: 20%;
-  position: fixed;
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: fixed;
+  background-color: #333467;
+  width: 20%;
+  height: 100%;
+  border-right: #F26F21 solid 5px;
+  padding-top: 50px;
+  color: white;
 }
 
-nav ul{
-  margin-top: 12vh;
+.logoEnTekst {
+  padding-bottom: 30px;
+  line-height: 1.15;
+  margin-left: -25px;
+}
+
+.logoEnTekst>p {
+  opacity: 0.5;
+}
+
+.logoTemplate {
+  width: 130px;
+  /* width: 1.125rem clamp(1rem, calc(120 / 1440 * 100vw), 1rem); */
 }
 
 nav li {
   list-style-type: none;
-  padding-top: 2.5vh;
+  padding-top: 1vh;
 }
 
 nav li a {
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-decoration: none;
-  color: #333467;
-  font-weight: bold;
+  color: #ffffff;
+  font-weight: light;
   align-self: flex-start;
+  display: block;
+  padding: 10px 60px 10px 10px;
 }
 
-nav a.active {
-  color: #F26F21;
+.active {
+  color: white;
+  background-color: #9191ae;
+  border-radius: 5px;
 }
 
-main{
-  margin-top: 15vh;
+main {
   margin-left: 25vw;
+  margin-right: 8vw;
   margin-bottom: 3vh;
 }
 
 section {
-  width: min(100%, 55rem);
-  color: #ffff;
-  background: #b9b9cf;
-  padding: 1rem;
+  margin: 100px;
+  color: #727272;
+  background: #ffffff;
+  padding-bottom: 100px;
+  border-bottom: #dfdfdf solid 3px;
 }
 
-/* elke section na de eerste heeft een margin top 1rem */
-section + section {
-  margin-top: 1rem;
+section>h2 {
+  color: #333467;
+  font-size: 30px;
 }
 
 h2 {
-  border-bottom: #ffff 2px solid;
+  border-bottom: #ffffff 2px solid;
   margin-bottom: 1rem;
 }
 
@@ -259,3 +255,13 @@ textarea {
   background-color: green;
   padding: 20px 20px 20px 20px
 }
+
+@media screen and (max-width: 830px) {
+  header {
+    display: none;
+  }
+
+  main {
+    margin: 20vh 2%;
+    margin-bottom: 3vh;
+  }
