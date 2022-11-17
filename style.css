@@ -91,6 +91,30 @@ h2 {
   border-bottom: #ffffff 2px solid;
   margin-bottom: 1rem;
 }
+/* icons */
+
+.icons{
+  border-left: 7px solid #9191ae;
+  padding: 1em;
+}
+#simpelIcon{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 1em;
+  grid-row:  225px 175px ;
+}
+.text-icons{
+  padding-bottom: 1em;
+}
+.item img{
+  width: 5em;
+  height: 5em;
+  padding: 0.5em;
+  }
+.item img:hover{
+   box-shadow: #88a5bf7a 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+   padding: .5em;
+  }
 
 /* elke section na de eerste heeft een margin top 1rem
 section + section{
