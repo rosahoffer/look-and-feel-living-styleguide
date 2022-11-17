@@ -287,6 +287,8 @@ input, label, textarea {
     text-align: center;
   }
 
+/* TYPOGRAFIE */
+
 .text_alignment img{
   width: 80%;
 }
@@ -333,11 +335,11 @@ table {
   padding-bottom: 1rem;
 }
 
-ul li{
+.duurzaamheidText li{
   color:#333467;
 }
 
-ul p {
+.duurzaamheidText p{
   font-size: 32pt;
   font-weight: bold;
 }
