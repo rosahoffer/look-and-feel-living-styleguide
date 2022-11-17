@@ -92,6 +92,11 @@ h2 {
   margin-bottom: 1rem;
 }
 
+/* KLEUR */
+
+.section-color > img:last-child{
+  padding-top: 50px;
+  
 /* elke section na de eerste heeft een margin top 1rem
 section + section{
   /* margin-top: 1rem; */
