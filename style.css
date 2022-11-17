@@ -112,149 +112,115 @@ h2 {
   font-size: 20px;
 }
 
-/* FROM:text input style */
+/* FROM: Hier wordt de Tekst input weergegeven */
 
 .container-textInput,
 .container-textArea {
   display: flex; 
   flex-direction: row;
-  padding: 20px 20px;
+  padding: 1rem 0;
 }
 
-.container_text_area_li,
-.container_text_input_li {
-  padding: 4rem 4rem 4rem 10rem;
+.container-textInput ol,
+.container-textArea ol {
+  padding: 6rem 6rem;
 }
 
-.text_area_img {
+.anatomie_img {
   background-color: #D6D6E1;
-  padding: 20px 20px 20px 20px;
-  border-radius: 5px;
+  width: 400px;
+  height: 300px;
+  padding: 1rem;
+  border-radius: 5px
 }
 
-.text_input_img {
-  background-color: #D6D6E1;
-  padding: 20px 20px 20px 20px;
-  border-radius: 5px;
-}
-
-/* FORM:gebruik style */
+/* FORM: Hier wordt het Gebruik van de forms weergegeven */
 
 .container-wrapper {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
+  margin-top: 1rem;
+  gap: 2rem 0;
+  margin-bottom: 2rem;
+ 
 }
 
 .container-wrapper li  {
   padding: 0 20px 0 10px
 }
 
-.img_wrapper {
+.img_wrapper  {
   background-color: #D6D6E1;
-  padding: 20px 20px 20px 20px;
+  width: 350px;
+  height: 300px;
+  padding: 1rem;
   border-radius: 5px;
+  
 }
 
-/* FORM: voorbeeld code style */
-.realistic-box  {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 25%;
+.container-wrapper p {
+  max-width: 350px;
 }
 
-
-.example-box, 
-.realistic-box {
-	font-size: 12px; 
-	width: 100%;
-	background-color: rgb(219, 213, 213);
-	font-family: arial;
-	color: #0f0e0e;
+/* FORM: hier wordt displaying HTML & CSS weergegeven */
+.form-onvisible-html,
+.form-onvisible-css {
+  background-color: #D6D6E1;
+  width: 100%;
+  height: 32remx;
+  border-radius: 5px;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-
-.realistic-box label {
-  display: block;
-  color:  #333467;
-  font-size: 20px;
-  font-style: bold;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-input,
-label {
-    margin: 5px 0;  
-}
-
-.realistic-box input,
-textarea {
-  width: 50%;
-  padding: 5px 5px;
-  border: none;
+/* FORM: hier playing HTML & CSS weergegeven */
+.form-visible-code {
+  background-color: #D6D6E1;
+  width: 60%;
+  height: 32rem;
+  padding: 1rem;
   border-radius: 5px;
-  background-color: #ffffff;
-
 }
 
-.form-submit input {
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 6px 10%;
-  background-color: #F58C4D;
-  color:#333467
-}
-
-
-textarea {
-  color:  #333467;
+.form-visible-code input,
+ textarea {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid  #333467;
+  border-radius: 5px;
   resize: none;
+  
 }
 
-/* Forms */
-
-#formulieren h2 {
-  font-size: 40px;
+input, label, textarea {
+  display:block;
 }
 
-#formulieren h3 {
-  font-size: 30px;
-}
+ textarea:focus {
+  border: 2px solid  #333467;
+ }
 
-#formulieren h4 {
-  font-size: 20px;
-}
+.form-visible-code input:focus {
+    border: 3px solid  #333467;
+  }
 
-/* text input style */
+ .form-button {
+    background-color: #333467;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    border-radius: 5px;;
+    cursor: pointer;
+    justify-content: center;
+  }
 
-.container-textInput,
-.container-textArea {
-  display: flex; 
-  flex-direction: row;
-  padding: 20px 20px;
-}
-
-.container_text_area_li,
-.container_text_input_li {
-  padding: 4rem 4rem 4rem 10rem;
-}
-
-/* gebruik style */
-
-.container-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-}
-
-.container-wrapper li  {
-  padding: 0 20px 0 10px
-}
-
-.img_wrapper {
-  background-color: green;
-  padding: 20px 20px 20px 20px
-}
+  #form-box {
+    text-align: center;
+  }
 
 @media screen and (max-width: 830px) {
   header {
