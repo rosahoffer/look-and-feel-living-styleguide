@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-html{
+html {
   /* padding-top toegevoegd door de fixed header (het valt er anders achter) */
   scroll-padding-top: 13vh;
   scroll-behavior: smooth;
@@ -19,7 +19,7 @@ body {
   color: black;
 }
 
-header{
+header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,29 +28,28 @@ header{
   width: 20%;
   height: 100%;
   border-right: #F26F21 solid 5px;
-  padding-top: 100px;
+  padding-top: 50px;
   color: white;
 }
 
-.logoEnTekst{
-  padding-bottom: 50px;
+.logoEnTekst {
+  padding-bottom: 30px;
   line-height: 1.15;
   margin-left: -25px;
 }
 
-.logoEnTekst > p{
+.logoEnTekst>p {
   opacity: 0.5;
 }
 
-.logoTemplate{
-  /* width: 50%; */
+.logoTemplate {
   width: 130px;
   /* width: 1.125rem clamp(1rem, calc(120 / 1440 * 100vw), 1rem); */
 }
 
 nav li {
   list-style-type: none;
-  padding-top: 2.5vh;
+  padding-top: 1vh;
 }
 
 nav li a {
@@ -59,16 +58,17 @@ nav li a {
   color: #ffffff;
   font-weight: light;
   align-self: flex-start;
+  display: block;
+  padding: 10px 60px 10px 10px;
 }
 
-nav a.active {
+.active {
   color: white;
   background-color: #9191ae;
-  padding: 10px 100px 10px 10px;
   border-radius: 5px;
 }
 
-main{
+main {
   margin-left: 25vw;
   margin-right: 8vw;
   margin-bottom: 3vh;
@@ -82,7 +82,7 @@ section {
   border-bottom: #dfdfdf solid 3px;
 }
 
-section > h2 {
+section>h2 {
   color: #333467;
   font-size: 30px;
 }
@@ -95,14 +95,14 @@ h2 {
 /* elke section na de eerste heeft een margin top 1rem
 section + section{
   /* margin-top: 1rem; */
-/* } */ 
+/* } */
 
-@media screen and (max-width: 830px){
-  header{
+@media screen and (max-width: 830px) {
+  header {
     display: none;
   }
 
-  main{
+  main {
     margin: 20vh 2%;
     margin-bottom: 3vh;
   }
