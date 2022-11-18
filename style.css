@@ -91,8 +91,9 @@ h2 {
   border-bottom: #ffffff 2px solid;
   margin-bottom: 1rem;
 }
+
 /* icons */
-.icons{
+.icons {
   border-left: 7px solid #9191ae;
   padding: 1em;
 }
@@ -100,69 +101,74 @@ h2 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   grid-gap: 1em;
-  grid-row:  225px 175px ;
+  grid-row: 225px 175px;
 }
-.text-icons{
+
+.text-icons {
   padding-bottom: 1em;
 }
-.item img{
+
+.item img {
   width: 5em;
   height: 5em;
   padding: 0.5em;
-  }
-.item img:hover{
-   box-shadow: #88a5bf7a 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
-   padding: .5em;
-  }
-  
+}
+
+.item img:hover {
+  box-shadow: #88a5bf7a 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  padding: .5em;
+}
+
 /*TYPOGRAFIE*/
 
 
-.typografie_container{
+.typografie_container {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
-.typografie_box{
+.typografie_box {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
-.typografie_box h3{
+.typografie_box h3 {
   padding-bottom: 1em;
 }
 
-.typografie_box > ul{
+.typografie_box>ul {
   list-style-type: none;
 }
 
-.basis_text{
+.basis_text {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin-bottom: 3rem;
 }
 
-.basis_text div, .highlighted_text div{
+.basis_text div,
+.highlighted_text div {
   width: 6rem;
   padding-bottom: 1rem;
 }
 
-.text_text{
+.text_text {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
   line-height: 140%;
   color: #333467;
 }
 
-.text_alignment{
+.text_alignment {
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;
   width: 20rem;
 }
+
 /* Forms */
 
 #formulieren h2 {
@@ -181,7 +187,7 @@ h2 {
 
 .container-textInput,
 .container-textArea {
-  display: flex; 
+  display: flex;
   flex-direction: row;
   padding: 1rem 0;
 }
@@ -208,20 +214,20 @@ h2 {
   margin-top: 1rem;
   gap: 2rem 0;
   margin-bottom: 2rem;
- 
+
 }
 
-.container-wrapper li  {
+.container-wrapper li {
   padding: 0 20px 0 10px
 }
 
-.img_wrapper  {
+.img_wrapper {
   background-color: #D6D6E1;
   width: 350px;
   height: 300px;
   padding: 1rem;
   border-radius: 5px;
-  
+
 }
 
 .container-wrapper p {
@@ -239,6 +245,77 @@ h2 {
   margin-bottom: 1rem;
 }
 
+/* Section Buttons  */
+.gebruik1 {
+  width: 23em;
+}
+
+.btn-kader {
+  background-color: rgb(255, 255, 255);
+  height: 5.5rem;
+  width: 49em;
+  margin: 2rem;
+}
+
+.btn-kader button {
+  padding: 1em 3.8em 1em;
+  margin: 1.5em 0em 0em 3em;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn1 {
+  background-color: #224D12;
+  color: white;
+}
+
+.btn2 {
+  background-color: white;
+  border-style: solid #224D12;
+  color: #224D12;
+}
+
+.btn3 {
+  background-color: rgba(34, 77, 18, 0.11);
+  border-style: solid #224D12;
+  color: #224D12;
+}
+
+.btn-plus {
+  width: 16em;
+  margin-left: 3em;
+}
+
+.btn-kader2 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(255, 255, 255);
+  height: 9.5rem;
+  width: 49em;
+  margin: 2rem;
+}
+
+.btn-ul {
+  color: black;
+  padding: 2.2rem 4rem 1rem;
+}
+
+.table2 {
+  width: 49em;
+  margin: 2rem;
+  padding: 0;
+  background-color: white;
+  color: black;
+}
+
+td {
+  padding: 0;
+  width: 12em;
+  padding: 1em;
+}
+/* buttons end */
+
 /* FORM: hier playing HTML & CSS weergegeven */
 .form-visible-code {
   background-color: #D6D6E1;
@@ -249,58 +326,60 @@ h2 {
 }
 
 .form-visible-code input,
- textarea {
+textarea {
   width: 100%;
   padding: 10px 10px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 1px solid  #333467;
+  border: 1px solid #333467;
   border-radius: 5px;
   resize: none;
-  
+
 }
 
-input, label, textarea {
-  display:block;
+input,
+label,
+textarea {
+  display: block;
 }
 
- textarea:focus {
-  border: 2px solid  #333467;
- }
+textarea:focus {
+  border: 2px solid #333467;
+}
 
 .form-visible-code input:focus {
-    border: 3px solid  #333467;
-  }
+  border: 3px solid #333467;
+}
 
- .form-button {
-    background-color: #333467;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-decoration: none;
-    border-radius: 5px;;
-    cursor: pointer;
-    justify-content: center;
-  }
+.form-button {
+  background-color: #333467;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  border-radius: 5px;
+  ;
+  cursor: pointer;
+  justify-content: center;
+}
 
-  #form-box {
-    text-align: center;
-  }
+#form-box {
+  text-align: center;
+}
 
 /* TYPOGRAFIE */
-
-.text_alignment img{
+.text_alignment img {
   width: 80%;
 }
 
-.highlighted_text{
+.highlighted_text {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin-bottom: 3rem;
 }
 
-.highlighted_text_text{
+.highlighted_text_text {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 1.2rem;
@@ -308,26 +387,28 @@ input, label, textarea {
   color: #333467;
 }
 
-.headings{
+.headings {
   padding-bottom: 1rem;
   width: 20rem;
 }
 
-.heading_alignment img{
+.heading_alignment img {
   width: 80%;
 }
 
-.heading_alignment p{
+.heading_alignment p {
   padding-bottom: 2rem;
 }
 
-table td, th{
+table td,
+th {
   padding-right: 1rem;
   border-right: 2px solid #333467;
 }
 
-table td{
-  border-top: 2px solid #333467;;
+table td {
+  border-top: 2px solid #333467;
+  ;
 }
 
 table {
@@ -335,52 +416,66 @@ table {
   padding-bottom: 1rem;
 }
 
-.duurzaamheidText li{
-  color:#333467;
+.duurzaamheidText li {
+  color: #333467;
 }
 
-.duurzaamheidText p{
+.duurzaamheidText p {
   font-size: 32pt;
   font-weight: bold;
 }
-
 /*TYPOGRAFIE END*/
 
 /* KLEUR */
-.section-color > img:last-child{
+.section-color>img:last-child {
   padding-top: 50px;
 }
+
 /* KLEUR END */
 
 /* RESPONSIVE */
-.layout-text{
+.layout-text {
   margin-top: 3vh;
 }
+
 /* RESPONSIVE END */
 
+/* BEELDGEBRUIK */
+.border-radius-image {
+  width: 10em;
+}
+
+.two-values-image {
+  width: 10em;
+}
+
+/* BEELDGEBRUIK END */
+
 /* FOOTER */
-.footer-article{
+.footer-article {
   display: flex;
   justify-content: flex-start;
 }
 
-.footer-wel-doen{
+.footer-wel-doen {
   border: 3px solid #333467;
   border-radius: 1em;
   width: 40%;
   padding: 1vw;
   margin-right: 5vw;
 }
-.wel-doen-blaadje{
+
+.wel-doen-blaadje {
   display: flex;
   align-items: center;
   font-size: 1rem;
 }
 
-.wel-doen-blaadje img{
+.wel-doen-blaadje img {
   width: 100px;
   margin-right: 1vw;
 }
+
 /* FOOTER END */
 
 /* MEDIA QUERY VOOR HELE PAGINA */
@@ -394,6 +489,5 @@ table {
     margin-bottom: 3vh;
   }
 }
+
 /* MEDIA QUERY END */
-
-
