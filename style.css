@@ -350,6 +350,13 @@ table {
 .section-color > img:last-child{
   padding-top: 50px;
 }
+/* KLEUR END */
+
+/* RESPONSIVE */
+.layout-text{
+  margin-top: 3vh;
+}
+/* RESPONSIVE END */
 
 @media screen and (max-width: 830px) {
   header {
