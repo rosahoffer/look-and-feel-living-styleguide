@@ -479,7 +479,7 @@ table {
 /* FOOTER END */
 
 /* MEDIA QUERY VOOR HELE PAGINA */
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 60em) {
   header {
     display: none;
   }
@@ -488,6 +488,41 @@ table {
     margin: 1vh 2%;
     margin-bottom: 3vh;
   }
+  section {
+    margin: 0;
+  }
+  .form-visible-code {
+    width: 100%;
+}
+.form-onvisible-html pre{
+  line-height: normal;
+  overflow-x: scroll;
+
+}
+.container-textInput, .container-textArea {
+display: inline;
+  flex-direction: row;
+  padding: 1rem 0;
+}
+.anatomie_img {
+  width: 100%;
+}
+.section-color img{
+  width: 100% !important;
+}
+.heading_alignment img, .text_alignment img {
+  width: 100%;
+}
+.typografie-table{
+  overflow-x:auto;
+}
+.footer-article {
+  display: block;
+}
+.footer-wel-doen {
+
+  width: 100%;
+}
 }
 
 /* MEDIA QUERY END */
