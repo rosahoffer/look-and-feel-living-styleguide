@@ -259,7 +259,6 @@ h2 {
 }
 
 .btn-kader button {
-  color: white;
   padding: 1em 3.8em 1em;
   margin: 1.5em 0em 0em 3em;
   font-weight: bold;
@@ -269,6 +268,7 @@ h2 {
 
 .btn1 {
   background-color: #224D12;
+  color: white;
 }
 
 .btn2 {
