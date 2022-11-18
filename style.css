@@ -96,7 +96,7 @@ h2 {
   border-left: 7px solid #9191ae;
   padding: 1em;
 }
-#simpelIcon{
+.simpelIcon{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   grid-gap: 1em;
