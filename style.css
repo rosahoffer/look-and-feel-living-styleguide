@@ -92,6 +92,12 @@ h2 {
   margin-bottom: 1rem;
 }
 
+/* header */
+.fotos-header-onderdeel-desktop{
+  width: 650px;
+}
+/* header end */
+
 /* icons */
 .icons {
   border-left: 7px solid #9191ae;
@@ -121,8 +127,6 @@ h2 {
 }
 
 /*TYPOGRAFIE*/
-
-
 .typografie_container {
   display: flex;
   flex-direction: column;
@@ -171,7 +175,6 @@ h2 {
 }
 
 /* Forms */
-
 #formulieren h2 {
   font-size: 40px;
 }
@@ -269,7 +272,7 @@ h2 {
 .btn1 {
   background-color: #224D12;
   color: white;
-}
+} */
 
 .btn2 {
   background-color: white;
