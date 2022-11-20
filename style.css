@@ -120,7 +120,7 @@ h2 {
 }
 /* header end */
 
-/* icons */
+/* iCONS END */
 .icons {
   border-left: 7px solid #9191ae;
   padding: 1em;
@@ -147,6 +147,7 @@ h2 {
   box-shadow: #88a5bf7a 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
   padding: .5em;
 }
+/* ICONS END */
 
 /*TYPOGRAFIE*/
 .typografie_container {
@@ -195,6 +196,7 @@ h2 {
   margin-bottom: 2rem;
   width: 20rem;
 }
+/* TYPOGRAFIE END */
 
 /* FORM */
 /* FORM: Hier wordt de Tekst input weergegeven */
@@ -219,7 +221,6 @@ h2 {
 }
 
 /* FORM: Hier wordt het Gebruik van de forms weergegeven */
-
 .container-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -309,7 +310,7 @@ textarea:focus {
 }
 /* FORM END */
 
-/* Section Buttons  */
+/* BUTTONS  */
 .gebruik1 {
   width: 23em;
 }
@@ -378,7 +379,7 @@ td {
   width: 12em;
   padding: 1em;
 }
-/* buttons end */
+/* BUTTONS END */
 
 /* TYPOGRAFIE */
 .text_alignment img {
@@ -443,14 +444,12 @@ table {
 .section-color>img:last-child {
   padding-top: 50px;
 }
-
 /* KLEUR END */
 
 /* RESPONSIVE */
 .layout-text {
   margin-top: 3vh;
 }
-
 /* RESPONSIVE END */
 
 /* BEELDGEBRUIK */
@@ -461,7 +460,6 @@ table {
 .two-values-image {
   width: 10em;
 }
-
 /* BEELDGEBRUIK END */
 
 /* FOOTER */
@@ -488,7 +486,6 @@ table {
   width: 100px;
   margin-right: 1vw;
 }
-
 /* FOOTER END */
 
 /* MEDIA QUERY VOOR HELE PAGINA */
