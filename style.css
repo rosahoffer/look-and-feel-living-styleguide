@@ -32,17 +32,17 @@ header {
   color: white;
 }
 
-.logoEnTekst {
+.logo-en-tekst {
   padding-bottom: 30px;
   line-height: 1.15;
   margin-left: -25px;
 }
 
-.logoEnTekst>p {
+.logo-en-tekst>p {
   opacity: 0.5;
 }
 
-.logoTemplate {
+.logo-template {
   width: 130px;
   /* width: 1.125rem clamp(1rem, calc(120 / 1440 * 100vw), 1rem); */
 }
@@ -114,50 +114,50 @@ h2 {
    box-shadow: #88a5bf7a 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
    padding: .5em;
   }
-  
+
 /*TYPOGRAFIE*/
 
 
-.typografie_container{
+.typografie-container{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
-.typografie_box{
+.typografie-box{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
-.typografie_box h3{
+.typografie-box h3{
   padding-bottom: 1em;
 }
 
-.typografie_box > ul{
+.typografie-box > ul{
   list-style-type: none;
 }
 
-.basis_text{
+.basis-text{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin-bottom: 3rem;
 }
 
-.basis_text div, .highlighted_text div{
+.basis-text div, .highlighted-text div{
   width: 6rem;
   padding-bottom: 1rem;
 }
 
-.text_text{
+.text-text{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
   line-height: 140%;
   color: #333467;
 }
 
-.text_alignment{
+.text-alignment{
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;
@@ -179,19 +179,19 @@ h2 {
 
 /* FROM: Hier wordt de Tekst input weergegeven */
 
-.container-textInput,
-.container-textArea {
-  display: flex; 
+.container-text-input,
+.content-text-area {
+  display: flex;
   flex-direction: row;
   padding: 1rem 0;
 }
 
-.container-textInput ol,
-.container-textArea ol {
+.container-text-input ol,
+.content-text-area ol {
   padding: 6rem 6rem;
 }
 
-.anatomie_img {
+.anatomie-img {
   background-color: #D6D6E1;
   width: 400px;
   height: 300px;
@@ -208,20 +208,20 @@ h2 {
   margin-top: 1rem;
   gap: 2rem 0;
   margin-bottom: 2rem;
- 
+
 }
 
 .container-wrapper li  {
   padding: 0 20px 0 10px
 }
 
-.img_wrapper  {
+.img-wrapper  {
   background-color: #D6D6E1;
   width: 350px;
   height: 300px;
   padding: 1rem;
   border-radius: 5px;
-  
+
 }
 
 .container-wrapper p {
@@ -257,7 +257,7 @@ h2 {
   border: 1px solid  #333467;
   border-radius: 5px;
   resize: none;
-  
+
 }
 
 input, label, textarea {
@@ -289,18 +289,18 @@ input, label, textarea {
 
 /* TYPOGRAFIE */
 
-.text_alignment img{
+.text-alignment img{
   width: 80%;
 }
 
-.highlighted_text{
+.highlighted-text{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin-bottom: 3rem;
 }
 
-.highlighted_text_text{
+.highlighted-text-text{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 1.2rem;
@@ -313,11 +313,11 @@ input, label, textarea {
   width: 20rem;
 }
 
-.heading_alignment img{
+.heading-alignment img{
   width: 80%;
 }
 
-.heading_alignment p{
+.heading-alignment p{
   padding-bottom: 2rem;
 }
 
@@ -335,11 +335,11 @@ table {
   padding-bottom: 1rem;
 }
 
-.duurzaamheidText li{
+.duurzaamheid-text li{
   color:#333467;
 }
 
-.duurzaamheidText p{
+.duurzaamheid-text p{
   font-size: 32pt;
   font-weight: bold;
 }
@@ -359,12 +359,32 @@ table {
 /* RESPONSIVE END */
 
 /* BEELDGEBRUIK */
+.code-voorbeeld-beeldgebruik{
+  float:right;
+  padding-right: 90px;
+  padding-top: 30px;
+}
+
+.p-beeldgebruik{
+  padding-bottom: 30px;
+}
+
 .border-radius-image {
-  width: 10em;
+  border-radius: 5px;
+  width: 30em;
+}
+
+.h4-beeldgebruik{
+  padding-top: 30px;
+}
+
+.p2-beeldgebruik{
+  padding-bottom: 20px;
 }
 
 .two-values-image {
-  width: 10em;
+  border-radius: 30px 100px;
+  width: 30em;
 }
 /* BEELDGEBRUIK END */
 
@@ -405,5 +425,3 @@ table {
   }
 }
 /* MEDIA QUERY END */
-
-
