@@ -82,9 +82,31 @@ section {
   border-bottom: #dfdfdf solid 3px;
 }
 
+/* INTRODUCTION */
+.section-introduction > p{
+  width: 90%;
+  margin-top: 2vh;
+}
+
+.h1-introduction{
+  color: #333467;
+  font-size: 32px;
+}
+
+.important-introduction{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.important-introduction > li{
+  width: 95%;
+}
+/* INTRODUCTION END */
+
 section>h2 {
   color: #333467;
-  font-size: 30px;
+  font-size: 26px;
 }
 
 h2 {
@@ -174,21 +196,8 @@ h2 {
   width: 20rem;
 }
 
-/* Forms */
-#formulieren h2 {
-  font-size: 40px;
-}
-
-#formulieren h3 {
-  font-size: 30px;
-}
-
-#formulieren h4 {
-  font-size: 20px;
-}
-
-/* FROM: Hier wordt de Tekst input weergegeven */
-
+/* FORM */
+/* FORM: Hier wordt de Tekst input weergegeven */
 .container-textInput,
 .container-textArea {
   display: flex;
@@ -248,6 +257,57 @@ h2 {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+
+/* FORM: hier playing HTML & CSS weergegeven */
+.form-visible-code {
+  background-color: #D6D6E1;
+  width: 60%;
+  height: 32rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.form-visible-code input,
+textarea {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #333467;
+  border-radius: 5px;
+  resize: none;
+}
+
+input,
+label,
+textarea {
+  display: block;
+}
+
+textarea:focus {
+  border: 2px solid #333467;
+}
+
+.form-visible-code input:focus {
+  border: 3px solid #333467;
+}
+
+.form-button {
+  background-color: #333467;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  border-radius: 5px;
+  ;
+  cursor: pointer;
+  justify-content: center;
+}
+
+#form-box {
+  text-align: center;
+}
+/* FORM END */
 
 /* Section Buttons  */
 .gebruik1 {
@@ -319,57 +379,6 @@ td {
   padding: 1em;
 }
 /* buttons end */
-
-/* FORM: hier playing HTML & CSS weergegeven */
-.form-visible-code {
-  background-color: #D6D6E1;
-  width: 60%;
-  height: 32rem;
-  padding: 1rem;
-  border-radius: 5px;
-}
-
-.form-visible-code input,
-textarea {
-  width: 100%;
-  padding: 10px 10px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 1px solid #333467;
-  border-radius: 5px;
-  resize: none;
-
-}
-
-input,
-label,
-textarea {
-  display: block;
-}
-
-textarea:focus {
-  border: 2px solid #333467;
-}
-
-.form-visible-code input:focus {
-  border: 3px solid #333467;
-}
-
-.form-button {
-  background-color: #333467;
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-decoration: none;
-  border-radius: 5px;
-  ;
-  cursor: pointer;
-  justify-content: center;
-}
-
-#form-box {
-  text-align: center;
-}
 
 /* TYPOGRAFIE */
 .text_alignment img {
