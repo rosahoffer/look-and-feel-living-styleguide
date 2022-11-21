@@ -12,7 +12,7 @@
 
 <body>
   <header>
-    <div class="logoEnTekst">
+    <div class="logo-en-tekst">
       <a href="#">
         <img class="logoTemplate" src="assets/plantswap-logo-white.png" alt="logo">
       </a>
@@ -35,12 +35,56 @@
   </header>
 
   <main>
+    <section class="section-introduction">
+      <h1 class="h1-introduction">Styleguide Plantswap V1.0</h1>
+      <p>Dit is de styleguide gemaakt voor Plantswap. Een living styleguide biedt consistentie tussen merkuitingen, het
+        is een referentiekader voor je team en nieuwe ontwerpers/developers kunnen sneller aan de slag met een goede
+        merkreferentie.
+      </p>
+      <p>
+        Belangrijke punten: 
+        <ul class="important-introduction">
+          <li>Het is naslagwerk, dus makkelijk en snel.</li>
+          <li>Een merk ontwikkelt, dus moet de styleguide up-to-date gehouden worden.</li>
+        </ul>
+      </p>
+    </section>
+
     <section id="header">
       <h2>Header</h2>
 
       <h3>Header</h3>
-      <h4>Wel doen</h4>
-      <p>Vertel hoe dingen toegepast moeten worden.</p>
+      <h4>Wel doen: desktop versie</h4>
+      <p>
+        <img src="./assets/headerdesktop.png" class="fotos-header-onderdeel-desktop">
+
+        <p>Op de desktopversie staat het logo van de buurtcampus links en het menu naar de andere webpaginas van de
+          buurtcampus rechts. </p>
+
+        <img src="./assets/headerdesktop-geselecteerd.png" class="fotos-header-onderdeel-desktop">
+        <p>De links naar de verschillende webpaginas zijn in het lettertype Arial en bold, de kleur van de links is de
+          blauwe kleur uit de huisstijl als niet op een pagina, de oranje als je op een specifieke van deze paginas zit.
+        </p>
+        De font-size van de links is 16px.
+      </p>
+      <img src="./assets/headerdesktop - padding.png" class="fotos-header-onderdeel-desktop">
+      <p>Boven en onder het menu en het logo zit een padding van 25px.</p>
+
+
+      <h4>Wel doen: mobiele versie</h4>
+
+      <img src="./assets/headermobiel.png">
+      <img src="./assets/headermobieluitgeklapt.png">
+      <p> Net als in de desktopvertie zit er een padding onder en boven het logo en de drie streepjes onder elkaar
+        waarmee je het menu opent.</p>
+      <p>In de mobiele versie is het menu in de vorm van een uitklapmenu. Dit menu is, wanneer geopend, het blauw van de
+        huisstijl met witte letters.
+        Het lettertype is Arial en bold.</p>
+      <p> De font-size van de links is 16px. </p>
+      <img src="./assets/headermobieluitgeklapt-padding.png" class="fotos-header-onderdeel-desktop">
+      <p>Aan de linkerkant van de menu items is een padding van 20px.</p>
+      <img src="./assets/headermobieluitgeklapt-geselecteerd.png">
+      <p>Als je op een van de webpaginas zit, wordt de link van die pagina de oranje van de huisstijl.</p>
 
       <h4>Niet doen</h4>
       <p>Vertel hoe dingen vooral niet toegepast moeten worden.</p>
@@ -48,13 +92,39 @@
 
     <section id="logo">
       <h2>Logo</h2>
+      <img src="/assets/logoTemplate.png">
+      <h3>Plantswap Logo</h3>
+      <p>Het logo zorgt ervoor dat de bezoekers weten...
+        Het logo moet duidelijk zichtbaar en goed leesbaar zijn.
 
-      <h3>Header</h3>
-      <h4>Wel doen</h4>
-      <p>Vertel hoe dingen toegepast moeten worden.</p>
+        Voor het Plantswap logo is de letterstijl van het logo van Buurtcampus Oost aangehouden.
+        Hierdoor blijft Plantswap voor bezoekers herkenbaar als project van Buurcampus Oost.
+        Om het logo beter te laten aansluiten bij het planten thema, is gekozen voor de kleur groen (#224D12)
+      </p>
 
+      <h3>Bij desktop gebruik</h3>
+      <h4>Logo</h4>
+      <p>De aanbevolen minimum grootte voor het plantswap logo op desktop is … pixels hoog.</p>
+      <h4>Favicon</h4>
+      <p>Het icoon dat in het tabblad zichtbaar is laat … zien.</p>
+
+      <h3>Bij mobiel en applicatie gebruik</h3>
+      <h4>Logo</h4>
+      <p>De aanbevolen minimum grootte voor het plantswap logo op mobiel is … pixels hoog.</p>
+
+      <h3>Hoe kan ik het logo gebruiken op verschillende achtergronden?</h3>
+      <p>Dit is de richtlijn en een aantal voorbeelden voor het toepassen van het logo op verschillende achtergronden
+      </p>
       <h4>Niet doen</h4>
       <p>Vertel hoe dingen vooral niet toegepast moeten worden.</p>
+
+
+      <h3>Web integratie</h3>
+      <h4>Screen reader ondersteuning</h4>
+      <p>Een website die toegankelijk is voor alle gebruikers is belangrijk voor Buurtcampus Oost en dus voor project
+        Plantswap.
+        Zorg daarom altijd dat het logo gecombineerd wordt met een boodschap die hardop wordt voorgelezen door een
+        screen reader.</p>
     </section>
 
     <section class="section-color" id="kleur">
@@ -84,9 +154,9 @@
       <p>Tekstinvoer kan gebruikersinvoer op twee verschillende manieren weergeven:</p>
       <br>
       <li><b><em>Tekstinvoer met een enkele regel tekst</em></b></li>
-      <div class="container-textInput">
-        <img class="anatomie_img" src="assets/Anatomie.svg" />
-        <ol class="content-textInput">
+      <div class="container-text-input">
+        <img class="anatomie-img" src="assets/Anatomie.svg" />
+        <ol class="content-text-input">
           <li>Container</li>
           <li>Label</li>
           <li>Placeholder / Input text (optional)</li>
@@ -94,9 +164,9 @@
       </div>
 
       <li><b><em>Tekstgebied met meerdere regels tekst in een tekstinvoer met vaste hoogte</em></b></li>
-      <div class="container-textArea">
-        <img class="anatomie_img" src="assets/Anatomie counter.png" />
-        <ol class="content-textArea">
+      <div class="container-text-area">
+        <img class="anatomie-img" src="assets/Anatomie counter.png" />
+        <ol class="content-text-area">
           <li>Container</li>
           <li>Label</li>
           <li>Placeholder</li>
@@ -107,19 +177,19 @@
       <h4>Gebruik</h4>
       <p>Vertel hoe dingen toegepast moeten worden.</p>
       <ul class="container-wrapper">
-        <li><img class="img_wrapper" src="assets/label.svg" />
+        <li><img class="img-wrapper" src="assets/label.svg" />
           <p><b>Label</b></p>
           <p>Vermijd het maskeren van het label: houd het label altijd zichtbaar).</p>
         </li>
-        <li> <img class="img_wrapper" src="assets/width .svg" />
+        <li> <img class="img-wrapper" src="assets/width .svg" />
           <p><b>Breedte & Nabijheid</b></p>
           <p>Gebruik visuele nabijheid.</p>
         </li>
-        <li> <img class="img_wrapper" src="assets/focus.svg" />
+        <li> <img class="img-wrapper" src="assets/focus.svg" />
           <p><b>Auto-focus</b></p>
           <p>Automatische scherpstelling instellen.</p>
         </li>
-        <li> <img class="img_wrapper" src="assets/layout.svg" />
+        <li> <img class="img-wrapper" src="assets/layout.svg" />
           <p><b>Layout</b></p>
           <p>Plaats tekstinvoer op dezelfde regel als de totale breedte past in de schermbreedte en als de invoer
             gekoppeld is.
@@ -165,10 +235,10 @@
   box-sizing: border-box;
   border: 1px solid  #333467;
   border-radius: 5px;
-  resize: none; 
+  resize: none;
 }
 input, label, textarea {
-  display:block; 
+  display:block;
 }
  textarea:focus {
   border: 2px solid  #333467;
@@ -261,62 +331,79 @@ input, label, textarea {
     <section id="beeldgebruik">
       <h2>Beeldgebruik</h2>
 
-      <h3>Header</h3>
       <h4>Wel doen</h4>
-      <p>Vertel hoe dingen toegepast moeten worden.</p>
+      <p class="p-beeldgebruik">De meeste afbeeldingen zullen van stekjes en planten zijn. Verder zal er veel gebruik gemaakt word van groene
+        kleuren die passen bij de huisstijl.
+        Om afbeeldingen afgeronde hoeken te geven word er gebruik gemaakt van een one - value border radius:
+      <pre class="code-voorbeeld-beeldgebruik">
+          <code>
+            <p>
+              .border-radius-image {
+               border-radius: 5px;
+               width: 20em;
+               padding-bottom: 30px;
+              }
+            </p>
+          </code>
+        </pre>
+      <img class="border-radius-image" src="assets/stekjes-workshop.jpeg" alt="image-borderradius">
 
-      <h4>Niet doen</h4>
-      <p>Vertel hoe dingen vooral niet toegepast moeten worden.</p>
+      <h4 class="h4-beeldgebruik">Niet doen</h4>
+      <p class="p2-beeldgebruik">We maken geen gebruikt van two, tree of four values. Dit is dat je bepaalde hoeken wel afrond, en sommige
+        vierkant laat. Het volgende voorbeeld
+        is een two values border-radius:</p>
+      <br>
+      <img class="two-values-image" src="assets/stekjes-workshop.jpeg" alt="image-twovauleusborderradius">
     </section>
 
     <section id="typografie">
       <h2>Typografie</h2>
 
-      <article class="typografie_box">
+      <article class="typografie-box">
         <h3>Basis Text</h3>
-        <div class="basis_text">
+        <div class="basis-text">
 
-          <div class="text_family">
+          <div class="text-family">
             <h4>Family</h4>
             <p>Arial</p>
           </div>
 
-          <div class="text_size">
+          <div class="text-size">
             <h4>Size</h4>
             <p>1rem</p>
             <p>16px</p>
           </div>
 
-          <div class="text_lineheight">
+          <div class="text-lineheight">
             <h4>Line Height</h4>
             <p>140%</p>
           </div>
 
-          <div class="text_color">
+          <div class="text-color">
             <h4>Color</h4>
             <p>#333467</p>
           </div>
 
-          <div class="text_text">
+          <div class="text-text">
             <p>Grumpy wizards make a toxic brew for the jovial queen.</p>
           </div>
         </div>
 
         <h3>Highlighted Text</h3>
-        <div class="highlighted_text">
+        <div class="highlighted-text">
 
-          <div class="text_family">
+          <div class="text-family">
             <h4>Family</h4>
             <p>Arial (Bold)</p>
           </div>
 
-          <div class="text_size">
+          <div class="text-size">
             <h4>Size</h4>
             <p>1.2rem</p>
             <p>19px</p>
           </div>
 
-          <div class="text_lineheight">
+          <div class="text-lineheight">
             <h4>Line Height</h4>
             <p>150%</p>
           </div>
@@ -326,23 +413,23 @@ input, label, textarea {
             <p>#333467</p>
           </div>
 
-          <div class="highlighted_text_text">
+          <div class="highlighted-text-text">
             <p>Grumpy wizards make a toxic brew for the jovial queen.</p>
           </div>
         </div>
 
         <h3>Text-Alignment</h3>
-        <div class="text_alignment">
+        <div class="text-alignment">
           <img src="assets/text_alignment.png">
           <p>Normale text dient <b>links</b> uitgelijnd te worden, met een maximale regellengte van <b>30rem</b></p>
         </div>
       </article>
 
-      <article class="typografie_box">
+      <article class="typografie-box">
         <div class="headings">
           <h4>Headings</h4>
 
-          <div class="heading_alignment">
+          <div class="heading-alignment">
             <img src="assets/heading_alignment.png">
             <p>Headings dienen <b>gecentreerd</b> boven text of elementen geplaatst te worden.</p>
           </div>
@@ -370,7 +457,7 @@ input, label, textarea {
           <p>Headings dienen volgens semantische volgorde de aangegeven groottes te hebben.</p>
         </div>
 
-        <ul class="duurzaamheidText">
+        <ul class="duurzaamheid-text">
           <li>
             <p>Duurzaamheid</p>
           </li>
@@ -415,8 +502,75 @@ input, label, textarea {
       <h4>Wel doen</h4>
       <p>Vertel hoe dingen toegepast moeten worden.</p>
 
-      <h4>Niet doen</h4>
-      <p>Vertel hoe dingen vooral niet toegepast moeten worden.</p>
+      <h3>Gebruik</h3>
+
+      <table class="table1">
+        <tr>
+          <td>
+            <img class="gebruik1" src="./assets/btn-gebruik.png" alt="Gebruik1">
+            <p> Gebruik een knop om acties mogelijk te maken die belangrijk zijn voor een gebruiker.</p>
+          </td>
+          <td>
+            <img class="gebruik1" src="./assets/btn-gebruik2.png" alt="Gebruik2">
+            <p>
+              Wanneer het combineren van twee knoppen nauw worden gebruikt, moeten knoppen worden benadrukt.
+            </p>
+          </td>
+        </tr>
+      </table>
+
+      <h3>Opties</h3>
+
+      <p>
+        Een knop is een klikbaar element dat wordt gebruikt om een actie uit te voeren.
+        Het bevat een tekstlabel en er kan een ondersteunend pictogram worden weergegeven.
+      </p>
+
+      <article class="btn-kader">
+        <button class="btn1"> Primary button</button>
+        <button class="btn2"> Secondary button</button>
+        <button class="btn3"> Tertiary button</button>
+      </article>
+
+      <table class="table2">
+        <tr>
+          <th>Primary</th>
+          <th>Secondary</th>
+          <th>Tertiary</th>
+        </tr>
+
+        <tr>
+          <td>
+            De button wordt <strong>eenmaal</strong> per weergave gebruikt. Het wordt gebruikt wanneer een actie
+            duidelijk belangrijker
+            is dan de ander.
+          </td>
+          <td>
+            De secundaire knop is de standaardknop voor de meeste gebruikssituaties. De geschetste styling legt minder
+            nadruk op deze knoppen.
+          </td>
+          <td>
+            De tertiaire knop wordt meestal gebruikt voor diverse acties: de actie is belangrijk, maar is misschien niet
+            wat de gebruiker op dat moment wil doen.
+          </td>
+        </tr>
+      </table>
+
+      <h3>Anatomie</h3>
+
+      <p>
+        Knoppen kunnen een combinatie van een duidelijk label en een pictogram/icoon bevatten, terwijl linkjes altijd
+        tekst zijn.
+      </p>
+
+      <article class="btn-kader2">
+        <img class="btn-plus" src="./assets/btn.png" alt="button">
+        <ul class="btn-ul">
+          <li>1. Container </li>
+          <li>2. Leidend / eindigend Icoon (optioneel)</li>
+          <li>3. Label</li>
+        </ul>
+      </article>
     </section>
 
     <section id="footer">

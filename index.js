@@ -17,8 +17,7 @@ const simpelIcons =[
     'https://joelle78.github.io/the-client-case/assets/heartbeat.png',
     'https://joelle78.github.io/the-client-case/assets/planet-earth.png',
     'https://joelle78.github.io/the-client-case/assets/support.png',
-   
-]
+];
 
 
 const iconsKader = document.getElementById('simpelIcon');
@@ -32,9 +31,9 @@ function fotoeen(url) {
     item.append(mijnFoto);
     simpelIcon.append(item);
 }
-///met i-- kan ik beginnen van beneden naar boven 
-for(let i=simpelIcons.length;  i>0; i--) {
-    let num = Math.floor (Math.random()*simpelIcons.length)
-fotoeen(simpelIcons[num] );
-simpelIcons.splice(num,1);
+///met i-- kan ik beginnen van beneden naar boven
+for (let i = simpelIcons.length; i > 0; i--) {
+    let num = Math.floor(Math.random() * simpelIcons.length);
+    fotoeen(simpelIcons[num]);
+    simpelIcons.splice(num, 1);
 }
