@@ -201,15 +201,15 @@ h2 {
 
 /* FORM */
 /* FORM: Hier wordt de Tekst input weergegeven */
-.container-textInput,
-.container-textArea {
+.container-text-input,
+.container-text-area {
   display: flex;
   flex-direction: row;
   padding: 1rem 0;
 }
 
 .container-text-input ol,
-.content-text-area ol {
+.container-text-area ol {
   padding: 6rem 6rem;
 }
 
