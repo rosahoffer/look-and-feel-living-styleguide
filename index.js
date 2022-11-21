@@ -1,15 +1,15 @@
 document.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', function () {
         // checkt de ul voor active anchor elementen, 'this' is in dit geval de anchors
-        var active = this.parentNode.parentNode.querySelector('.active');
+        let active = this.parentNode.parentNode.querySelector('.active');
         if (active) {
             active.classList.remove('active');
         }
-        this.classList.add('active')
+        this.classList.add('active');
     })
 })
 // ICons
-const simpelIcons =[
+const simpelIcons = [
     'https://buurtcampusoost.duneyasaleh.com/public/image/stekjes_ruilen.png',
     'https://buurtcampusoost.duneyasaleh.com/public/image/noun-planting-plant.png',
     'https://rosahoffer.github.io/the-client-case/assets/doneren.png',
@@ -26,9 +26,7 @@ const simpelIcons =[
     'https://e7.pngegg.com/pngimages/415/155/png-clipart-telephone-computer-icons-phone-icon-template-miscellaneous-service.png',
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ28bkpZt4qwcuNfoBt1DwUJ1vRRaOru3uVA&usqp=CAU',
     'https://e7.pngegg.com/pngimages/982/97/png-clipart-computer-icons-camera-iphone-graphy-camera-photography-camera-icon.png'
-
-]
-
+];
 
 const iconsKader = document.getElementById('simpelIcon');
 
@@ -42,8 +40,8 @@ function fotoeen(url) {
     simpelIcon.append(item);
 }
 ///met i-- kan ik beginnen van beneden naar boven
-for(let i=simpelIcons.length;  i>0; i--) {
-    let num = Math.floor (Math.random()*simpelIcons.length)
-fotoeen(simpelIcons[num] );
-simpelIcons.splice(num,1)
+for (let i = simpelIcons.length; i > 0; i--) {
+    let num = Math.floor(Math.random() * simpelIcons.length);
+    fotoeen(simpelIcons[num]);
+    simpelIcons.splice(num, 1);
 }

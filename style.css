@@ -82,9 +82,31 @@ section {
   border-bottom: #dfdfdf solid 3px;
 }
 
+/* INTRODUCTION */
+.section-introduction > p{
+  width: 90%;
+  margin-top: 2vh;
+}
+
+.h1-introduction{
+  color: #333467;
+  font-size: 32px;
+}
+
+.important-introduction{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.important-introduction > li{
+  width: 95%;
+}
+/* INTRODUCTION END */
+
 section>h2 {
   color: #333467;
-  font-size: 30px;
+  font-size: 26px;
 }
 
 h2 {
@@ -98,7 +120,7 @@ h2 {
 }
 /* header end */
 
-/* icons */
+/* iCONS END */
 .icons {
   border-left: 7px solid #9191ae;
   padding: 1em;
@@ -119,11 +141,13 @@ h2 {
   width: 5em;
   height: 5em;
   padding: 0.5em;
-  }
-.item img:hover{
-   box-shadow: #88a5bf7a 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
-   padding: .5em;
-  }
+}
+
+.item img:hover {
+  box-shadow: #88a5bf7a 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  padding: .5em;
+}
+/* ICONS END */
 
 /*TYPOGRAFIE*/
 
@@ -173,24 +197,12 @@ h2 {
   margin-bottom: 2rem;
   width: 20rem;
 }
+/* TYPOGRAFIE END */
 
-/* Forms */
-#formulieren h2 {
-  font-size: 40px;
-}
-
-#formulieren h3 {
-  font-size: 30px;
-}
-
-#formulieren h4 {
-  font-size: 20px;
-}
-
-/* FROM: Hier wordt de Tekst input weergegeven */
-
-.container-text-input,
-.content-text-area {
+/* FORM */
+/* FORM: Hier wordt de Tekst input weergegeven */
+.container-textInput,
+.container-textArea {
   display: flex;
   flex-direction: row;
   padding: 1rem 0;
@@ -210,7 +222,6 @@ h2 {
 }
 
 /* FORM: Hier wordt het Gebruik van de forms weergegeven */
-
 .container-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -249,7 +260,58 @@ h2 {
   margin-bottom: 1rem;
 }
 
-/* Section Buttons  */
+/* FORM: hier playing HTML & CSS weergegeven */
+.form-visible-code {
+  background-color: #D6D6E1;
+  width: 60%;
+  height: 32rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.form-visible-code input,
+textarea {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #333467;
+  border-radius: 5px;
+  resize: none;
+}
+
+input,
+label,
+textarea {
+  display: block;
+}
+
+textarea:focus {
+  border: 2px solid #333467;
+}
+
+.form-visible-code input:focus {
+  border: 3px solid #333467;
+}
+
+.form-button {
+  background-color: #333467;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  border-radius: 5px;
+  ;
+  cursor: pointer;
+  justify-content: center;
+}
+
+#form-box {
+  text-align: center;
+}
+/* FORM END */
+
+/* BUTTONS  */
 .gebruik1 {
   width: 23em;
 }
@@ -318,58 +380,7 @@ td {
   width: 12em;
   padding: 1em;
 }
-/* buttons end */
-
-/* FORM: hier playing HTML & CSS weergegeven */
-.form-visible-code {
-  background-color: #D6D6E1;
-  width: 60%;
-  height: 32rem;
-  padding: 1rem;
-  border-radius: 5px;
-}
-
-.form-visible-code input,
-textarea {
-  width: 100%;
-  padding: 10px 10px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 1px solid #333467;
-  border-radius: 5px;
-  resize: none;
-
-}
-
-input,
-label,
-textarea {
-  display: block;
-}
-
-textarea:focus {
-  border: 2px solid #333467;
-}
-
-.form-visible-code input:focus {
-  border: 3px solid #333467;
-}
-
-.form-button {
-  background-color: #333467;
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-decoration: none;
-  border-radius: 5px;
-  ;
-  cursor: pointer;
-  justify-content: center;
-}
-
-#form-box {
-  text-align: center;
-}
+/* BUTTONS END */
 
 /* TYPOGRAFIE */
 
@@ -435,14 +446,12 @@ table {
 .section-color>img:last-child {
   padding-top: 50px;
 }
-
 /* KLEUR END */
 
 /* RESPONSIVE */
 .layout-text {
   margin-top: 3vh;
 }
-
 /* RESPONSIVE END */
 
 /* BEELDGEBRUIK */
@@ -473,7 +482,6 @@ table {
   border-radius: 30px 100px;
   width: 30em;
 }
-
 /* BEELDGEBRUIK END */
 
 /* FOOTER */
@@ -500,7 +508,6 @@ table {
   width: 100px;
   margin-right: 1vw;
 }
-
 /* FOOTER END */
 
 /* MEDIA QUERY VOOR HELE PAGINA */
