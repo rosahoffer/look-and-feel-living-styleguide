@@ -39,7 +39,7 @@ function fotoeen(url) {
     item.append(mijnFoto);
     simpelIcon.append(item);
 }
-///met i-- kan ik beginnen van beneden naar boven 
+///met i-- kan ik beginnen van beneden naar boven
 for (let i = simpelIcons.length; i > 0; i--) {
     let num = Math.floor(Math.random() * simpelIcons.length);
     fotoeen(simpelIcons[num]);

@@ -12,8 +12,8 @@
 
 <body>
   <header>
-    <div class="logoEnTekst">
-      <img class="logoTemplate" src="assets/plantswap-logo-white.png" alt="logo">
+    <div class="logo-en-tekst">
+      <img class="logo-template" src="assets/plantswap-logo-white.png" alt="logo">
       <p>Styleguide V1.0</p>
     </div>
     <nav>
@@ -152,9 +152,9 @@
       <p>Tekstinvoer kan gebruikersinvoer op twee verschillende manieren weergeven:</p>
       <br>
       <li><b><em>Tekstinvoer met een enkele regel tekst</em></b></li>
-      <div class="container-textInput">
-        <img class="anatomie_img" src="assets/Anatomie.svg" />
-        <ol class="content-textInput">
+      <div class="container-text-input">
+        <img class="anatomie-img" src="assets/Anatomie.svg" />
+        <ol class="content-text-input">
           <li>Container</li>
           <li>Label</li>
           <li>Placeholder / Input text (optional)</li>
@@ -162,9 +162,9 @@
       </div>
 
       <li><b><em>Tekstgebied met meerdere regels tekst in een tekstinvoer met vaste hoogte</em></b></li>
-      <div class="container-textArea">
-        <img class="anatomie_img" src="assets/Anatomie counter.png" />
-        <ol class="content-textArea">
+      <div class="container-text-area">
+        <img class="anatomie-img" src="assets/Anatomie counter.png" />
+        <ol class="content-text-area">
           <li>Container</li>
           <li>Label</li>
           <li>Placeholder</li>
@@ -175,19 +175,19 @@
       <h4>Gebruik</h4>
       <p>Vertel hoe dingen toegepast moeten worden.</p>
       <ul class="container-wrapper">
-        <li><img class="img_wrapper" src="assets/label.svg" />
+        <li><img class="img-wrapper" src="assets/label.svg" />
           <p><b>Label</b></p>
           <p>Vermijd het maskeren van het label: houd het label altijd zichtbaar).</p>
         </li>
-        <li> <img class="img_wrapper" src="assets/width .svg" />
+        <li> <img class="img-wrapper" src="assets/width .svg" />
           <p><b>Breedte & Nabijheid</b></p>
           <p>Gebruik visuele nabijheid.</p>
         </li>
-        <li> <img class="img_wrapper" src="assets/focus.svg" />
+        <li> <img class="img-wrapper" src="assets/focus.svg" />
           <p><b>Auto-focus</b></p>
           <p>Automatische scherpstelling instellen.</p>
         </li>
-        <li> <img class="img_wrapper" src="assets/layout.svg" />
+        <li> <img class="img-wrapper" src="assets/layout.svg" />
           <p><b>Layout</b></p>
           <p>Plaats tekstinvoer op dezelfde regel als de totale breedte past in de schermbreedte en als de invoer
             gekoppeld is.
@@ -233,10 +233,10 @@
   box-sizing: border-box;
   border: 1px solid  #333467;
   border-radius: 5px;
-  resize: none; 
+  resize: none;
 }
 input, label, textarea {
-  display:block; 
+  display:block;
 }
  textarea:focus {
   border: 2px solid  #333467;
@@ -330,77 +330,79 @@ input, label, textarea {
     <section id="beeldgebruik">
       <h2>Beeldgebruik</h2>
 
-      <h3>Header</h3>
-      <br>
       <h4>Wel doen</h4>
-      <p>De meeste afbeeldingen zullen van stekjes/planten zijn. Verder zal er veel gebruik gemaakt word van groene
-        kleuren en de kleuren die passen bij de huisstijl.
-        Verder word er gebruik gemaakt van een one - value border radius:
-        <pre>
+      <p class="p-beeldgebruik">De meeste afbeeldingen zullen van stekjes en planten zijn. Verder zal er veel gebruik gemaakt word van groene
+        kleuren die passen bij de huisstijl.
+        Om afbeeldingen afgeronde hoeken te geven word er gebruik gemaakt van een one - value border radius:
+      <pre class="code-voorbeeld-beeldgebruik">
           <code>
             <p>
-              border-radius: 15px;
+              .border-radius-image {
+               border-radius: 5px;
+               width: 20em;
+               padding-bottom: 30px;
+              }
             </p>
           </code>
         </pre>
-        <img class="border-radius-image" src="assets/borderradius.png" alt="image-borderradius">
+      <img class="border-radius-image" src="assets/stekjes-workshop.jpeg" alt="image-borderradius">
 
-        <h4>Niet doen</h4>
-        <p>We maken geen gebruikt van two, tree of four values. Dit is dat je bepaalde hoeken wel afrond, en sommige
-          vierkant laat. Het volgende voorbeeld
-          is een two values border-radius:</p>
-        <br>
-        <img class="two-values-image" src="assets/twovalue.png" alt="image-twovauleusborderradius">
+      <h4 class="h4-beeldgebruik">Niet doen</h4>
+      <p class="p2-beeldgebruik">We maken geen gebruikt van two, tree of four values. Dit is dat je bepaalde hoeken wel afrond, en sommige
+        vierkant laat. Het volgende voorbeeld
+        is een two values border-radius:</p>
+      <br>
+      <img class="two-values-image" src="assets/stekjes-workshop.jpeg" alt="image-twovauleusborderradius">
     </section>
 
     <section id="typografie">
       <h2>Typografie</h2>
 
-      <article class="typografie_box">
+      <article class="typografie-box">
         <h3>Basis Text</h3>
-        <div class="basis_text">
+        <div class="basis-text">
 
-          <div class="text_family">
+          <div class="text-family">
             <h4>Family</h4>
             <p>Arial</p>
           </div>
 
-          <div class="text_size">
+          <div class="text-size">
             <h4>Size</h4>
             <p>1rem</p>
             <p>16px</p>
           </div>
 
-          <div class="text_lineheight">
+          <div class="text-lineheight">
             <h4>Line Height</h4>
             <p>140%</p>
           </div>
 
-          <div class="text_color">
+          <div class="text-color">
             <h4>Color</h4>
             <p>#333467</p>
           </div>
 
-          <div class="text_text">
+          <div class="text-text">
             <p>Grumpy wizards make a toxic brew for the jovial queen.</p>
           </div>
         </div>
 
         <h3>Highlighted Text</h3>
-        <div class="highlighted_text">
+        <div class="highlighted-text">
 
-          <div class="text_family">
+          <div class="text-family">
             <h4>Family</h4>
             <p>Arial (Bold)</p>
           </div>
 
-          <div class="text_size">
+          <div class="text-size">
             <h4>Size</h4>
             <p>1.2rem</p>
             <p>19px</p>
           </div>
 
-          <div class="text_lineheight">
+          <div class="text-lineheight">
             <h4>Line Height</h4>
             <p>150%</p>
           </div>
@@ -410,23 +412,23 @@ input, label, textarea {
             <p>#333467</p>
           </div>
 
-          <div class="highlighted_text_text">
+          <div class="highlighted-text-text">
             <p>Grumpy wizards make a toxic brew for the jovial queen.</p>
           </div>
         </div>
 
         <h3>Text-Alignment</h3>
-        <div class="text_alignment">
+        <div class="text-alignment">
           <img src="assets/text_alignment.png">
           <p>Normale text dient <b>links</b> uitgelijnd te worden, met een maximale regellengte van <b>30rem</b></p>
         </div>
       </article>
 
-      <article class="typografie_box">
+      <article class="typografie-box">
         <div class="headings">
           <h4>Headings</h4>
 
-          <div class="heading_alignment">
+          <div class="heading-alignment">
             <img src="assets/heading_alignment.png">
             <p>Headings dienen <b>gecentreerd</b> boven text of elementen geplaatst te worden.</p>
           </div>
@@ -454,7 +456,7 @@ input, label, textarea {
           <p>Headings dienen volgens semantische volgorde de aangegeven groottes te hebben.</p>
         </div>
 
-        <ul class="duurzaamheidText">
+        <ul class="duurzaamheid-text">
           <li>
             <p>Duurzaamheid</p>
           </li>
