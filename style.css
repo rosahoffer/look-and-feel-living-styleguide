@@ -528,7 +528,7 @@ table {
   overflow-x: scroll;
 
 }
-.container-textInput, .container-textArea {
+.container-text-input, .container-text-area {
 display: inline;
   flex-direction: row;
   padding: 1rem 0;
