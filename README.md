@@ -4,7 +4,9 @@
 
 Een living styleguide voor het project PlantSwap.
 
-**Zie hieronder de look and feel van de onze styleguide: https://tolga1999.github.io/look-and-feel-living-styleguide/**
+* Live Preview: https://tolga1999.github.io/look-and-feel-living-styleguide/
+
+**Zie hieronder de look and feel van de onze styleguide**
 
 <img width="1282" alt="styleguide-voorbeeld" src="https://user-images.githubusercontent.com/112861375/203532261-3132086d-7e25-411d-a21f-f385b8321a8b.png">
 
